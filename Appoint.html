@@ -1,0 +1,44 @@
+<html>
+<head><title>Appointment Form</title>
+<style>.dropbtn {
+    background-color: #76D7C4;
+    color: white;
+    padding: 16px;
+	width: 250px;
+	
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}</style>
+</head>
+<body background=bg.jpg >
+<h1 align=center style="color: #2693E6; background-color:#F7F9F9; height: 10%; font-size:50">Online Medical Assistant </h1>
+<form>
+<table>
+<tr><td><p style="color:white ;font-size:25">Name:<td><input type=text></p>
+<tr><td><p style="color:white ;font-size:25">Phone no.:<td><input type=text></p>
+<tr><td><p style="color:white ;font-size:25">Doctor's name:<td><input type=text></p>
+<tr><td><p style="color:white ;font-size:25">Speciality:<td><input type=text></p>
+<tr><td><p style="color:white ;font-size:25">Hospital:<td><input type=text></p>
+<tr><td><p style="color:white ;font-size:25">Date:<td><input type=text></p>
+<tr><td><p style="color:white ;font-size:25">Time:<td><input type=text></p>
+<tr>
+<td><div class="dropdown" >
+  <button class="dropbtn" style="width:150px" onClick="myfunction()">Confirm</button><div>
+  <td><div class="dropdown" >
+  <button class="dropbtn" style="width:150px">Cancel</button><div>
+  <script>
+function myFunction() {
+    alert("Your appointment is confirmed. Thank you!");
+}
+</script>
+</table>
+</form>
+</body>
+</html>

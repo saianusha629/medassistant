@@ -1,0 +1,149 @@
+<html>
+<head><title>Medical Assistant</title>
+<style>.dropbtn {
+    background-color: #76D7C4;
+    color: white;
+    padding: 16px;
+	width: 250px;
+	
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #AED6F1 ;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.container {
+    position: relative;
+    text-align: center;
+	font-style: bold;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p{text-align:left;
+width:700px; 
+font-size:35;
+text-color:white}</style></head>
+<body background=bg.jpg >
+<h1 align=center style="color: #2693E6; background-color:#F7F9F9; height: 10%; font-size:50">Online Medical Assistant </h1>
+<table>
+<tr>
+<td><a href=home.html><div class="dropdown" >
+  <button class="dropbtn" style="width:150px">Home</button>
+</div></a>
+<td><div class="dropdown">
+  <button class="dropbtn" style="width:150px">Location</button>
+  <div class="dropdown-content">
+    <a href="nellore.html" target="_blank">Nellore</a>
+    <a href="#">Vijayawada</a>
+    <a href="#">Guntur</a>
+  </div>
+</div>
+<td><div class="dropdown">
+  <button class="dropbtn">Super-Speciality Hospitals</button>
+  <div class="dropdown-content">
+    <a href="https://www.apollohospitals.com/locations/india/nellore" target="_blank">Apollo Hospitals</a>
+    <a href="https://www.justdial.com/Nellore/Narayana-Medical-College-Hospital/9999PX861-X861-140113110226-H9D6_BZDET?utm_source=adwords&utm_medium=codered&utm_campaign=dsa_category&gclid=CjwKCAjw6ZLOBRALEiwAxzyCWwFNSdqVAXhwIxu7A-5SFaElyXYoks4sdikVv-NtpCokSV6VRpvTDRoCHqUQAvD_BwE" target="_blank">Narayana General Hospitals</a>
+    <a href="#">KIMS Hospital</a>
+  </div>
+</div>
+<td><div class="dropdown">
+  <button class="dropbtn">Government Schemes</button>
+  <div class="dropdown-content">
+    
+    <a href="#">Janashree Bima Yojana (JBY)</a>
+    <a href="#">Central Government Health Scheme (CGHS)</a>
+	<a href="#">Universal Health insurance scheme(UHIS)</a>
+  </div>
+</div>
+<td><td><a href=regform.html target="_blank"><div class="dropdown">
+  <button class="dropbtn">Register</button>
+</div></a>
+<td><a href=login.html target="_blank"><div class="dropdown">
+  <button class="dropbtn">Login</button>
+</div></a></tr>
+</table>
+<marquee direction=left>Here We display informationabout free services and some blood banks </marquee>
+<div class="container">
+  <img src="blue-bg.jpg" alt="Norway" style="width:100%;">
+ 
+  <div class="top-left"><table><tr>
+  <td><p>This online medical assistant will make it easy for you to know about various hospitals in your locality, availability of doctors in a hospital, also helps to post a query and get reply from doctors through this web application interface</p>
+  <td><img src="home.jpg">
+  </tr>
+  </table>
+  
+  </div>
+  
+
+</div>
+
+</body>
+</html>
